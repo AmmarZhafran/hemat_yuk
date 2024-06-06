@@ -5,7 +5,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 3), () {
-      // Tunda pindah halaman selama 3 detik
+      
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => HalamanLogin()),
