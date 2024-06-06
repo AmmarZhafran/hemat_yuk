@@ -15,7 +15,7 @@ class _DetailPageState extends State<DetailPage> {
   @override
   void initState() {
     super.initState();
-    // Add the initial harga passed from input_page.dart to the list
+   
     hargaList.add(widget.harga);
   }
 
@@ -88,7 +88,7 @@ class _DetailPageState extends State<DetailPage> {
                 color: Colors.white,
               ),
             ),
-            // Add more widgets here if needed
+            
           ],
         ),
       ]),
