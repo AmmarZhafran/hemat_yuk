@@ -56,7 +56,7 @@ class _InputPageState extends State<InputPage> {
   void _saveInputs() {
     final String harga = _hargaController.text;
     if (harga.isNotEmpty) {
-      // Navigate to DetailPage and pass the harga value
+      
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => DetailPage(harga: harga)),
